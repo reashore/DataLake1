@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{182E2583-ECAD-465B-BB50-91101D7C24CE}") = "DataLake1", "DataLake1\DataLake1.usqlproj", "{719A88CB-D0E0-433F-9036-62377DC9B1E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{719A88CB-D0E0-433F-9036-62377DC9B1E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{719A88CB-D0E0-433F-9036-62377DC9B1E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{719A88CB-D0E0-433F-9036-62377DC9B1E0}.Debug|x64.ActiveCfg = Debug|x64
+		{719A88CB-D0E0-433F-9036-62377DC9B1E0}.Debug|x64.Build.0 = Debug|x64
+		{719A88CB-D0E0-433F-9036-62377DC9B1E0}.Debug|x86.ActiveCfg = Debug|x86
+		{719A88CB-D0E0-433F-9036-62377DC9B1E0}.Debug|x86.Build.0 = Debug|x86
+		{719A88CB-D0E0-433F-9036-62377DC9B1E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{719A88CB-D0E0-433F-9036-62377DC9B1E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{719A88CB-D0E0-433F-9036-62377DC9B1E0}.Release|x64.ActiveCfg = Release|x64
+		{719A88CB-D0E0-433F-9036-62377DC9B1E0}.Release|x64.Build.0 = Release|x64
+		{719A88CB-D0E0-433F-9036-62377DC9B1E0}.Release|x86.ActiveCfg = Release|x86
+		{719A88CB-D0E0-433F-9036-62377DC9B1E0}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60340B62-82E9-4440-9404-1F9A6DD87B08}
+	EndGlobalSection
+EndGlobal
