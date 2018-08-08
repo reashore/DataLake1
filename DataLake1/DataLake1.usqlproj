@@ -21,10 +21,18 @@
     <OutputPath>bin\Release\</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <Script Include="Script.usql" />
-    <ScriptCode Include="Script.usql.cs">
-      <DependentUpon>Script.usql</DependentUpon>
+    <Script Include="PostalcodesAreaTotals.usql" />
+    <ScriptCode Include="PostalcodesAreaTotals.usql.cs">
+      <DependentUpon>PostalcodesAreaTotals.usql</DependentUpon>
     </ScriptCode>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="postalcodes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="postalcodes\InitialDataFile.csv">
+      <SubType>Content</SubType>
+    </Content>
   </ItemGroup>
   <!-- check for SDK Build target in current path then in USQLSDKPath-->
   <Import Project="UsqlSDKBuild.targets" Condition="Exists('UsqlSDKBuild.targets')" />
